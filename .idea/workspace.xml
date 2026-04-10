@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8c46e22-d2bd-44f2-b77a-44a338a47f6c" name="Changes" comment="" />
+    <list default="true" id="d8c46e22-d2bd-44f2-b77a-44a338a47f6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive-movie-service/src/main/java/com/reactive/spring/controller/MoviesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-movie-service/src/main/java/com/reactive/spring/controller/FluxAndMonoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_/home/valentin/IdeaProjects/ReactiveMovies" value="3CAy7oNyq9cU0FT91rKqaTwRIDU" />
       <entry key="_/home/valentin/IdeaProjects/ReactiveMovies/ReactiveMovies" value="3C3lqlCknUuFseVTmAThE0puj4Q" />
     </persistenceIdMap>
   </component>
@@ -44,6 +49,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -60,10 +68,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ReactiveMovieServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/valentin/Descargas/messages-mapper",
+    "last_opened_file_path": "/home/valentin/IdeaProjects/ReactiveMovies",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
