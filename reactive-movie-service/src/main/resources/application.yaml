@@ -1,0 +1,41 @@
+spring:
+  profiles:
+    active: local
+---
+spring:
+  application:
+    name: reactive-movie-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local
+  config:
+    activate:
+      on-profile: local
+---
+spring:
+  application:
+    name: reactive-movie-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local
+  config:
+    activate:
+      on-profile: non-prod
+---
+spring:
+  application:
+    name: reactive-movie-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: local
+  config:
+    activate:
+      on-profile: prod
+
+
