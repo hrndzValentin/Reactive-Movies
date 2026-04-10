@@ -1,0 +1,53 @@
+# =========================
+# ENV & SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# JAVA / SPRING
+# =========================
+/target/
+*.log
+*.class
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NODE (por si agregas frontend)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+
+# =========================
+# TEST / COVERAGE
+# =========================
+coverage/

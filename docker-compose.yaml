@@ -1,0 +1,27 @@
+services:
+
+  mongo:
+    image: mongo:7
+    container_name: mongo-db
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: moviesdb
+    volumes:
+      - mongo_data:/data/db
+
+  reactive-movie-service:
+    build:
+      context: ./reactive-movie-service
+    container_name: reactive-movie-service
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+    environment:
+      SPRING_DATA_MONGODB_URI: ${MONGO_URI}
+
+volumes:
+  mongo_data:
