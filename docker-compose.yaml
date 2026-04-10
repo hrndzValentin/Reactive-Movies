@@ -22,6 +22,7 @@ services:
       - mongo
     environment:
       SPRING_DATA_MONGODB_URI: ${MONGO_URI}
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
 
 volumes:
   mongo_data:

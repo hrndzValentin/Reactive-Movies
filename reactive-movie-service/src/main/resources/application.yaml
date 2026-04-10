@@ -1,41 +1,7 @@
 spring:
-  profiles:
-    active: local
----
-spring:
   application:
     name: reactive-movie-service
-  data:
-    mongodb:
-      host: ${SPRING_DATA_MONGODB_URI}
-      port: 27017
-      database: moviesdb
-  config:
-    activate:
-      on-profile: local
----
-spring:
-  application:
-    name: reactive-movie-service
-  data:
-    mongodb:
-      host: ${SPRING_DATA_MONGODB_URI}
-      port: 27017
-      database: moviesdb
-  config:
-    activate:
-      on-profile: non-prod
----
-spring:
-  application:
-    name: reactive-movie-service
-  data:
-    mongodb:
-      host: ${SPRING_DATA_MONGODB_URI}
-      port: 27017
-      database: moviesdb
-  config:
-    activate:
-      on-profile: prod
 
+server:
+  port: 8080
 
